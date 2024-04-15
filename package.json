@@ -1,0 +1,27 @@
+{
+  "name": "checkpoint-2-back",
+  "version": "1.0.0",
+  "description": "checkpoint backend",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --watch ./src src/index.ts",
+    "loadFixtures": "fixtures-ts-node-commonjs load ./src/fixtures --dataSource=./src/db.ts --sync"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.2",
+    "graphql": "^16.8.1",
+    "graphql-scalars": "^1.23.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "type-graphql": "^2.0.0-beta.6",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "typeorm-fixtures-cli": "^4.0.0"
+  }
+}

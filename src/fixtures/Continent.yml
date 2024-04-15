@@ -1,0 +1,8 @@
+entity: Continent
+items:
+  continent1:
+    code: "EU"
+  continent2:
+    code: "AF"
+  continent3:
+    code: "AM"

@@ -1,0 +1,17 @@
+entity: Country
+items:
+  country{1..5}:
+    code: "{{location.countryCode}}"
+    name: "{{location.country}}"
+    emoji: ":)"
+    continent: "@continent1"
+  country{6..10}:
+    code: "{{location.countryCode}}"
+    name: "{{location.country}}"
+    emoji: ":("
+    continent: "@continent2"
+  country{11..15}:
+    code: "{{location.countryCode}}"
+    name: "{{location.country}}"
+    emoji: ":')"
+    continent: "@continent3"
